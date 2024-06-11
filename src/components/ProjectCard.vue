@@ -7,10 +7,18 @@
 </template>
   
 <script>
+import {defineProps} from 'vue';
 export default {
   props: {
     project: Object,
   },
+  // setup(prop) {
+  //   defineProps({
+  //     prop: Object
+  //   })
+
+  //   return {prop}
+  // }
 };
 </script>
   
