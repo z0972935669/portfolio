@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>版权所有 © 2023</p>
+    <p>版權所有 © 2023</p>
   </footer>
 </template>
   
