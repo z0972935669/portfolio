@@ -15,7 +15,7 @@ export default {
   text-align: center;
   padding: 10px;
   background: #282c34;
-  color: white;
+  color: #ffffff;
   position: fixed;
   width: 100%;
   bottom: 0;

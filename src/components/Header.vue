@@ -21,7 +21,7 @@ export default {
   align-items: center;
   padding: 10px 20px;
   background: #282c34;
-  color: white;
+  color: #ffffff;
 
   .logo {
     height: 18px;
@@ -30,7 +30,7 @@ export default {
 
   nav {
     a {
-      color: white;
+      color: #ffffff;
       text-decoration: none;
       margin-left: 20px;
 

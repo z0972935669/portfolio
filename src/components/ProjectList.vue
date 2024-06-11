@@ -20,7 +20,6 @@ export default {
       projects: [
         { id: 1, title: "項目一", description: "這是第一個項目" },
         { id: 2, title: "項目二", description: "這是第二個項目" },
-        // 添加更多项目
       ],
     };
   },
