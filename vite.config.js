@@ -6,11 +6,11 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './', // github倉庫名為 portfolio
   plugins: [
     vue(),
     VueDevTools(),
   ],
-  base: './', // github倉庫名為 portfolio
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
