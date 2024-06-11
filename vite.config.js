@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     VueDevTools(),
   ],
-  base: '/portfolio/', // github倉庫名為 portfolio
+  // base: '/portfolio/', // github倉庫名為 portfolio
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
