@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1>作品集<img src="@/assets//logo.svg" alt="Logo" class="logo" /></h1>
+    <h1>作品集<img src="@/assets/logo.svg" alt="Logo" class="logo" /></h1>
     
     <nav>
       <router-link to="/">首頁</router-link>
