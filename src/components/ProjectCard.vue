@@ -6,20 +6,12 @@
   </div>
 </template>
   
-<script>
+<script setup>
 import {defineProps} from 'vue';
-export default {
-  props: {
-    project: Object,
-  },
-  // setup(prop) {
-  //   defineProps({
-  //     prop: Object
-  //   })
 
-  //   return {prop}
-  // }
-};
+defineProps({
+  project: Object
+})
 </script>
   
 <style lang="scss" scoped>
