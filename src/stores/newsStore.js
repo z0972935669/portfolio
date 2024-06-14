@@ -12,7 +12,6 @@ export const useNewsStore = defineStore('news', {
   }),
   actions: {
     async fetchNews(title) {
-        console.log('title :>> ', title);
       this.loading = true;
       this.error = null;
       try {
@@ -20,7 +19,6 @@ export const useNewsStore = defineStore('news', {
         const BASE_URL = 'https://newsapi.org/v2/everything';
         const res = await axios.get(`${BASE_URL}?q=${title}&from=2024-05-14&sortBy=publishedAt&apiKey=${API_KEY}`);
         this.newsData = res.data;
-        console.log('this.newsData :>> ', this.newsData);
       } catch (err) {
         this.error = 'Unable to fetch news data';
       } finally {
