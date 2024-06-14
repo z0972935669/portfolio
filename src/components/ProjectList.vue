@@ -18,7 +18,7 @@ export default {
   },
   setup() {
     let projects = reactive([
-        { id: 1, title: "天氣", description: "天氣串接api", link: "/weather"},
+        { id: 1, title: "新聞", description: "新聞串接api", link: "/news"},
         { id: 2, title: "項目二", description: "這是第二個項目", link: ""},
       ]);
 
