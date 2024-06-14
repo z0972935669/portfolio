@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '@/views/Home.vue';
-import Weather from '@/views/weather/Weather.vue';
+import Weather from '@/views/Weather.vue';
 
 const routes = [
   {
