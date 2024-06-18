@@ -15,8 +15,8 @@ export const useNewsStore = defineStore('news', {
       this.loading = true;
       this.error = null;
       try {
-        const API_KEY = '30a5807237ed40ee833078daa9feab1a';
-        const BASE_URL = 'https://newsapi.org/v2/everything';
+        // const API_KEY = '30a5807237ed40ee833078daa9feab1a';
+        // const BASE_URL = 'https://newsapi.org/v2/everything';
         const res = await axios.get(`${BASE_URL}?q=${title}&from=2024-05-14&sortBy=publishedAt&apiKey=${API_KEY}`);
         this.newsData = res.data;
       } catch (err) {
